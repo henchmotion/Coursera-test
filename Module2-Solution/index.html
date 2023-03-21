@@ -11,6 +11,128 @@
     * {
         box-sizing: border-box;
     }
+    style
+* {box-sizing: border-box;}
+h1 {
+    margin: 50px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 135%;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+article {
+    position: relative;
+    background-color: gray;
+    border: 2px solid black;
+    width: 100%;
+    
+    
+}
+
+.sub1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(236, 154, 154);
+
+}
+
+.sub2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: maroon;
+
+}
+
+.sub3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(228, 218, 127);
+
+}
+
+.content {
+    padding: 10px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+/* large devices e.g desktop version*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Medium Devices e.g tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*Small Devices e.g mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
 
 </style>
 
