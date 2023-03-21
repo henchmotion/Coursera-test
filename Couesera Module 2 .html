@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>module2-solution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    
+    * {
+        box-sizing: border-box;
+    }
+    style
+* {box-sizing: border-box;}
+h1 {
+    margin: 50px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 135%;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+article {
+    position: relative;
+    background-color: gray;
+    border: 2px solid black;
+    width: 100%;
+    
+    
+}
+
+.sub1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(236, 154, 154);
+
+}
+
+.sub2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: maroon;
+
+}
+
+.sub3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(228, 218, 127);
+
+}
+
+.content {
+    padding: 10px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+/* large devices e.g desktop version*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Medium Devices e.g tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*Small Devices e.g mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+</style>
+
+<body>
+    <h1>Our Menu</h1>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <article>
+            <p class="sub1">Chicken</p>
+            <p class="content">
+                Chicken meat is considered as an easily available source of high-quality protein and other nutrients that are necessary for proper body functioning
+                    In addition, chicken meat is known by its nutritional quality, 
+                    as it contains significant amount of high-quality and easily digestible protein 
+                    and a low portion of saturated fat. Therefore, 
+                    chicken meat is recommended for consumption by all age groups.
+
+            </p>
+        </article>
+    </section>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <article>
+            <p class="sub2">Beef</p>
+            <p class="content">Beef is the culinary name for meat from cattle. 
+                In prehistoric times, humankind hunted aurochs and later domesticated them. 
+                Since that time, numerous breeds of cattle have been bred specifically for the quality or quantity of their meat
+                Beef is widely known for its high protein nutritional values.
+</p>
+            </article>
+    </section>
+    <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+        <article>
+            <p class="sub3">Sushi</p>
+            <p class="content">Sushi is a Japanese dish of prepared vinegared rice, 
+                usually with some sugar and salt, accompanied by a variety of ingredients, 
+                such as seafood, often raw, and vegetables. 
+                Styles of sushi and its presentation vary widely, 
+                but the one key ingredient is "sushi rice," also referred to as shari, or sumeshi
+</p>
+            </article>
+</body>
+
+</html>
